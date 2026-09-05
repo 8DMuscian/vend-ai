@@ -1,4 +1,4 @@
-"""Business logic services for the AI Merchant Platform.
+"""Business logic services for Vend.ai.
 
 Services contain deterministic business logic that:
 - Validates inputs against policy rules

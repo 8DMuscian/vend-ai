@@ -1,4 +1,4 @@
-# Audit Timeline — AI Merchant Platform
+# Audit Timeline — Vend.ai
 
 ## Phase 1: Buyer Intent & Catalog
 

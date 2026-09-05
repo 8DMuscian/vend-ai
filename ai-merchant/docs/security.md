@@ -1,6 +1,6 @@
 # Security Model
 
-> This document defines the threat model, security boundaries, and enforcement mechanisms for the AI Merchant Platform.
+> This document defines the threat model, security boundaries, and enforcement mechanisms for Vend.ai.
 
 ---
 

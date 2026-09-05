@@ -1,4 +1,4 @@
-# AI Merchant Platform
+# Vend.ai
 
 > Razorpay AI Growth & Agentic Commerce Hackathon
 

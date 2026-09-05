@@ -1,4 +1,4 @@
-"""SQLAlchemy model package - ORM models for the AI Merchant Platform.
+"""SQLAlchemy model package - ORM models for Vend.ai.
 
 This package defines all database models using SQLAlchemy 2.0 ORM.
 The Base class is used by all models for ORM mapping.

@@ -1,4 +1,4 @@
-"""Pydantic request/response schemas for the AI Merchant Platform."""
+"""Pydantic request/response schemas for Vend.ai."""
 
 from .growth import (
     BuyerIntent,

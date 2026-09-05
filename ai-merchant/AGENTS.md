@@ -1,4 +1,4 @@
-# AGENTS.md — AI Merchant Engineering Constitution
+# AGENTS.md — Vend.ai Engineering Constitution
 
 > This file is the single source of truth for all AI agents working on this codebase.
 > Every agent MUST read this before writing any code.

@@ -29,9 +29,9 @@ logger.setLevel(logging.INFO)
 
 
 app = FastAPI(
-    title="AI Merchant Platform",
+    title="Vend.ai",
     version="0.1.0",
-    description="Razorpay AI Growth Hackathon – Merchant Platform",
+    description="Razorpay AI Growth Hackathon – Vend.ai",
 )
 
 # CORS – configured per environment, never wildcard + credentials in production
@@ -52,14 +52,14 @@ app.include_router(catalog_router)
 # Health endpoint (unversioned, for load balangers)
 @app.get("/health", include_in_schema=False)
 async def health():
-    logger.info("health_check_requested", extra={"service": "ai-merchant-platform", "env": settings.app_env})
+    logger.info("health_check_requested", extra={"service": "vend-ai", "env": settings.app_env})
     return {
         "status": "healthy",
-        "service": "ai-merchant-platform",
+        "service": "vend-ai",
         "env": settings.app_env,
     }
 
 # Root
 @app.get("/", include_in_schema=False)
 async def root():
-    return {"message": "AI Merchant Platform", "version": "0.1.0"}
+    return {"message": "Vend.ai", "version": "0.1.0"}

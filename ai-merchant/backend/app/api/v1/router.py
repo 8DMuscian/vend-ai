@@ -1,4 +1,4 @@
-"""API v1 routes for the AI Merchant Platform."""
+"""API v1 routes for Vend.ai."""
 
 from fastapi import APIRouter
 
